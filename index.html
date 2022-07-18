@@ -14,17 +14,13 @@
     <div class="container">
         <nav>
             <div class="left">
-
             </div>
-            <div class="center">
-                
+            <div class="center">   
                   <a href="#">STAYS</a>
                   <a href="#">EXPERIENCES</a>
                   <a href="#">ONLINE EXPERIENCES</a>
                   <ion-icon name="search-outline"><a href="#"></a></ion-icon>
-    
             </div>
-            
             <div class="right">
               <h1>BECOME A HOST</h1>
               <ion-icon name="globe-outline"></ion-icon>
@@ -33,7 +29,6 @@
                 <ion-icon name="person-outline" id="user"></ion-icon>
               </span>
             </div>
-           
         </nav>
 
 
@@ -52,13 +47,31 @@
     </div>
 
     <div class="container" id="section2">
-       <div class="one"></div>
-       <div class="two"></div>
-       <div class="three"></div>
+       <button type="button" id="left"><ion-icon name="chevron-back-outline"></ion-icon></button>
+       <div class="one" id="one"></div>
+       <div class="two" id="two"></div>
+       <div class="three" id="three"></div>
+       <button type="button" id="right"><ion-icon name="chevron-forward-outline"></ion-icon></button>
     </div>
     <div class="container" id="section3">
         
     </div>
+
+
+    <script>
+        const imageArray = [
+            File
+        ]
+        let right = document.getElementById('right');
+        let left = document.getElementById('left');
+        left.style.display = "none";
+        let one = document.getElementById('one');
+        let two = document.getElementById('two');
+        let three = document.getElementById('three');
+        
+        right.addEventListener('click',scrollImage);
+        right.addEventListener('click',scrollImageLeft);
+    </script>
     
 </body>
 </html>
