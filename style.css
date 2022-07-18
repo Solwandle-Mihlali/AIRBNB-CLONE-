@@ -276,6 +276,22 @@ background-image: url('home1.jpg');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.one:hover{
+
+    opacity: 0.8;
+    
+}
+.one h1{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
 }
 
 .two{
@@ -292,6 +308,30 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+#right{
+
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: solid var(--airBnbPink) 1px;
+    background: white;
+    color: var(--airBnbPink);
+    font-size: 20px;
+    box-shadow: 1px 2px 10px black;
+   
+}
+#left{
+
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: solid var(--airBnbPink) 1px;
+    background: white;
+    color: var(--airBnbPink);
+    font-size: 20px;
+    box-shadow: 1px 2px 10px black;
+   
+}
 
 .priceCont{
 
